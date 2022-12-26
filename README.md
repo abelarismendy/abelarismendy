@@ -3,12 +3,12 @@ I love solving problems and learning new things 🤔, and I am always looking fo
 
 ## Skills 💪
 
-- Proficient in Python, with experience in web development and data analysis
+- Proficient in Python
 - Skilled in Java
-- Proficient in HTML/CSS and JavaScript, with experience in web development
+- Proficient in HTML/CSS and JavaScript
 - Familiar with C, C#
 - Experienced in using Git for version control
-- Skilled in using Unity and other game development tools
+- Skilled in using Unity
 - Proficient in using Linux and the command line
 
 ## Technologies 🛠
