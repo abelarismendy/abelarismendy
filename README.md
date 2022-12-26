@@ -8,4 +8,4 @@ I love solving problems and learning new things 🤔, and I am always looking fo
 
 Currently, I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) 🤖 focused on artificial intelligence and social robotics.
 
-Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to contact me 💬.
+Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](abel.arismendy.co/contact) 💬.
