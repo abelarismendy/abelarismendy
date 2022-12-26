@@ -14,7 +14,7 @@ I love solving problems and learning new things 🤔, and I am always looking fo
 ## Technologies 🛠
 
 - Skilled in using the following web development frameworks: FastAPI, Flask, Django
-- Experienced in using the following Python libraries and frameworks: NumPy, Pandas, Matplotlib, TensorFlow, Selenium
+- Experienced in using the following Python libraries and frameworks: NumPy, Pandas, Matplotlib, Selenium
 - Skilled in using Unity and C# for game development
 - Familiar with using MySQL and other database systems
 - Experienced in using Git for version control
