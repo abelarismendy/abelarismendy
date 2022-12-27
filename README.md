@@ -31,8 +31,8 @@ Currently, I am part of a research group called [SinfonIA](https://sinfoniaunian
 
 ## Online Presence 🌐
 
-- [Personal website](https://abel.arismendy.co) 🌍
+- [Personal website](https://abel.arismendy.co) 🌍 (WIP)
 - [LinkedIn profile](https://www.linkedin.com/in/abelarismendy/) 💼
 
 
-Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](https://abel.arismendy.co/contact) 💬.
+Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
