@@ -7,6 +7,8 @@ Currently, I am part of a research group called [SinfonIA](https://sinfoniaunian
 ## Featured Projects 🏆
 
 - [PDF Extractor](https://github.com/abelarismendy/extract_pdf): This repository contains a Python script that uses Selenium and web scraping to extract PDF files from books on the Universidad de los Andes platform. It is a useful tool for students and researchers who need access to the content of these books. The script is easy to use and provides a quick and convenient way to generate PDF files from the books on the platform.
+- [Robot parser](https://github.com/LYM202202-AM/RobotParser): Python program with a simple yes/no parser. The program read a text file that contains a program for a robot, and verify whether the syntax is correct.
+
 - [Twitter FastAPI](https://github.com/abelarismendy/twitter-fast-api): This is a Python project that uses the FastAPI framework to create a web application. This project is a clone of Twitter.
 - [Courses info](https://github.com/abelarismendy/oferta-cursos): This is a Python project that uses Selenium and ChromeDriver to scrape information from the Universidad de los Andes' course offer website.
 
