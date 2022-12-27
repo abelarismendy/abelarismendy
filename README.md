@@ -1,4 +1,3 @@
-# Abel Arismendy
 
 Hi there! My name is Abel and I am a software developer with a special interest in Python and data science 🐍💻.
 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges 💪.
