@@ -7,11 +7,11 @@
 
 ## Featured Projects 🏆
 
-<a href="https://github.com/abelarismendy/extract_pdf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=extract_pdf"/></a>
-<a href="https://github.com/LYM202202-AM/RobotParser">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=LYM202202-AM&repo=RobotParser"/>
-<a href="https://github.com/abelarismendy/twitter-fast-api">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fast-api"/>
+<a href="https://github.com/abelarismendy/pdf-extractor"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=pdf-extractor"/></a>
+<a href="https://github.com/LYM202202-AM/robot-parser">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=LYM202202-AM&repo=robot-parser"/>
+<a href="https://github.com/abelarismendy/twitter-fastapi">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fastapi"/>
 </a>
 <a href="https://github.com/abelarismendy/courses-offer">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=courses-offer"/>
