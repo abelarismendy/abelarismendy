@@ -4,17 +4,21 @@
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=abelarismendy&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+<a href="#year-list-container">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy"/>
+</a>
 
 ## Featured Projects 🏆
 
-[![PDF extractor](https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=extract_pdf)](https://github.com/abelarismendy/extract_pdf)
-
-[![Robot Parser](https://github-readme-stats.vercel.app/api/pin/?username=LYM202202-AM&repo=RobotParser)](https://github.com/LYM202202-AM/RobotParser)
-
-[![Twitter FastAPI](https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fast-api)](https://github.com/abelarismendy/twitter-fast-api)
-
-[![Course offer](https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=oferta-cursos)](https://github.com/abelarismendy/oferta-cursos)
+<a href="https://github.com/abelarismendy/extract_pdf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=extract_pdf"/></a>
+<a href="https://github.com/LYM202202-AM/RobotParser">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=LYM202202-AM&repo=RobotParser"/>
+<a href="https://github.com/abelarismendy/twitter-fast-api">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fast-api"/>
+</a>
+<a href="https://github.com/abelarismendy/oferta-cursos">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=oferta-cursos"/>
+</a>
 
 
 
