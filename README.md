@@ -5,7 +5,7 @@
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
 
 <a href="#year-list-container">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
 </a>
 
 ## Featured Projects 🏆
