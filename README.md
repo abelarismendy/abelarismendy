@@ -13,8 +13,8 @@
 <a href="https://github.com/abelarismendy/twitter-fast-api">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fast-api"/>
 </a>
-<a href="https://github.com/abelarismendy/oferta-cursos">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=oferta-cursos"/>
+<a href="https://github.com/abelarismendy/courses-offer">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=courses-offer"/>
 </a>
 
 
