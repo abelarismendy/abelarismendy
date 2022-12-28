@@ -1,5 +1,7 @@
 [![Header](header.png)](https://github.com/abelarismendy)
 
+![](https://komarev.com/ghpvc/?username=abelarismendy&color=1D1C3B&style=for-the-badge)
+
 - 🐍💻 I am a software developer with a special interest in Python and data science.
 - :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
