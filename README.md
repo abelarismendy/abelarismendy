@@ -6,6 +6,11 @@
 - :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
+- :mailbox: Reach me: (abel@arismendy.co).
+## Connect whit me 🤝
+
+- [LinkedIn profile](https://www.linkedin.com/in/abelarismendy/) 💼
+
 
 ## Featured Projects 🏆
 
@@ -39,13 +44,8 @@
 - Familiar with using MySQL and other database systems
 - Experienced in using Git for version control
 
-## Online Presence 🌐
 
-- [Personal website](https://abel.arismendy.co) 🌍 (WIP)
-- [LinkedIn profile](https://www.linkedin.com/in/abelarismendy/) 💼
-
-
-## The stats
+## The stats :bar_chart:
 
 <a href="#year-list-container">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
