@@ -4,7 +4,7 @@
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
 
-<a href="https://github.com/abelarismendy?tab=overview">
+<a href="#year-list-container">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy"/>
 </a>
 
