@@ -1,12 +1,14 @@
 [![Header](header.png)](https://github.com/abelarismendy)
 
 ![](https://komarev.com/ghpvc/?username=abelarismendy&color=1D1C3B&style=for-the-badge)
+![](https://hit.yhype.me/github/profile?user_id=39172024)
 
 - 🐍💻 I am a software developer with a special interest in Python and data science.
 - :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
 - :mailbox: Reach me: (abel@arismendy.co).
+
 ## Connect whit me 🤝
 
 [![Linkedin profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abelarismendy/)
