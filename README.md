@@ -1,15 +1,9 @@
-![Header](header.png)](https://github.com/abelarismendy)
+[![Header](header.png)](https://github.com/abelarismendy)
 
 - 🐍💻 I am a software developer with a special interest in Python and data science.
 - :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
 - 🤖 I am part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/) focused on artificial intelligence and social robotics.
-
-## The stats
-
-<a href="#year-list-container">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
-</a>
 
 ## Featured Projects 🏆
 
@@ -49,4 +43,12 @@
 - [LinkedIn profile](https://www.linkedin.com/in/abelarismendy/) 💼
 
 
+## The stats
+
+<a href="#year-list-container">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
+</a>
+
+
 Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
+
