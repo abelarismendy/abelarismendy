@@ -28,24 +28,21 @@
 
 
 
-## Skills 💪
+## Skills 💪 and Technologies 🛠
 
-- Proficient in Python
-- Skilled in Java
-- Proficient in HTML/CSS and JavaScript
-- Familiar with C, C#
-- Experienced in using Git for version control
-- Skilled in using Unity
-- Proficient in using Linux and the command line
-
-## Technologies 🛠
-
-- Skilled in using the following web development frameworks: FastAPI, Flask, Django
-- Experienced in using the following Python libraries and frameworks: NumPy, Pandas, Matplotlib, Selenium
-- Skilled in using Unity and C# for game development
-- Familiar with using MySQL and other database systems
-- Experienced in using Git for version control
-
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
+[![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)]()
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
+[![UNITY](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)]()
+[![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)]()
+[![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
+[![FLASK](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)]()
+[![DJANGO](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)]()
+[![MYSQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)]()
 
 ## The stats :bar_chart:
 
@@ -53,7 +50,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
 </a>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
 
