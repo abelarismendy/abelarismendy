@@ -18,14 +18,14 @@
 
 ## Featured Projects 🏆
 
-<a href="https://github.com/abelarismendy/pdf-extractor"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=pdf-extractor"/></a>
+<a href="https://github.com/abelarismendy/pdf-extractor"><img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=abelarismendy&repo=pdf-extractor"/></a>
 <a href="https://github.com/LYM202202-AM/robot-parser">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=LYM202202-AM&repo=robot-parser"/>
+<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=LYM202202-AM&repo=robot-parser"/>
 <a href="https://github.com/abelarismendy/twitter-fastapi">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fastapi"/>
+<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fastapi"/>
 </a>
 <a href="https://github.com/abelarismendy/courses-offer">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=abelarismendy&repo=courses-offer"/>
+<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=abelarismendy&repo=courses-offer"/>
 </a>
 
 
@@ -52,7 +52,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
 </a>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-abelarismendy.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
 
