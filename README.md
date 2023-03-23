@@ -52,7 +52,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
 </a>
 
-[![Top Langs](https://github-readme-stats-abelarismendy.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-abelarismendy.vercel.app/api/top-langs/?username=abelarismendy&exclude_repo=namen-vr,sprint-2&hide=html,scss,makefile,Common%20lisp&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
 
