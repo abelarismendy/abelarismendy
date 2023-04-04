@@ -1,0 +1,112 @@
+:root {
+    --bs-primary: #1c1d3b;
+}
+
+.relleno {
+    height: 5000px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-section {
+    background: linear-gradient(68.2deg, rgb(7, 3, 98) -0.1%, rgb(179, 26, 132) 47.7%, rgb(239, 186, 83) 100.2%);
+    background-repeat: no-repeat;
+    border-radius: 0 0 3rem 3rem;
+}
+
+.navbar-brand img {
+    height: 48px;
+    width: auto;
+}
+
+.about {
+    height: calc(100vh - 74px);
+    padding: 0 1rem;
+}
+
+.about h1 {
+    color: #ffd600;
+}
+
+.about-main {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.main-person {
+    background: url(../img/abel.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.nav-link {
+    padding: 1rem !important;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.navbar {
+    padding: .5rem 1rem;
+}
+
+.nav-link.main {
+    background: #ffd600;
+    color: #1c1d3b;
+    transition: all 0.3s ease;
+}
+
+.nav-link.main:hover {
+    background: #fff;
+    color: #1c1d3b;
+}
+
+.nav-link.main:active {
+    background: none;
+    color: #fff;
+}
+
+a {
+    color: #1c1d3b;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ffd600;
+    border-color: #ffd600;
+    color: #1c1d3b;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1c1d3b;
+    border-color: #1c1d3b;
+    color: #ffd600;
+}
+
+.btn-primary:active {
+    background-color: #fff!important;
+    border-color: #1c1d3b !important;
+    color: #1c1d3b !important;
+}
+
+.about-me {
+    padding: 2rem 1rem;
+}
+
+.about-me .row div {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+    .main-person {
+        display: none;
+    }
+}
