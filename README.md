@@ -17,18 +17,6 @@
 [![Twitter profile](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abelarismendy/)
 
 
-## Featured Projects 🏆
-
-<a href="https://github.com/LYM202202-AM/robot-parser">
-<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=LYM202202-AM&repo=robot-parser"/>
-<a href="https://github.com/abelarismendy/twitter-fastapi">
-<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=abelarismendy&repo=twitter-fastapi"/>
-</a>
-<a href="https://github.com/abelarismendy/courses-offer">
-<img src="https://github-readme-stats-abelarismendy.vercel.app/api/pin/?username=abelarismendy&repo=courses-offer"/>
-</a>
-
-
 
 ## Skills 💪 and Technologies 🛠
 
