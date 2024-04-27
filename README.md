@@ -36,7 +36,10 @@
 ## The stats :bar_chart:
 
 <a href="#year-list-container">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true&theme=dark" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=abelarismendy&hide_border=true" />
+  </picture>
 </a>
 
 
