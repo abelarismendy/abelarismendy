@@ -3,10 +3,10 @@
 ![](https://komarev.com/ghpvc/?username=abelarismendy&color=1D1C3B&style=for-the-badge)
 ![](https://hit.yhype.me/github/profile?user_id=39172024)
 
-- 💻 I am a software developer with a focus in Frontend Web Development.
+- 💻 I am a software developer with a focus on Frontend Web Development.
 - :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
-- 🥽 I am cofounder an was a leader of the student iniciative focused in mixed reaity learning: [Oasis](https://instagram.com/oasis.uniandes).
+- 🥽 I am a cofounder an was a leader of the student iniciative focused in mixed reaity learning: [Oasis](https://instagram.com/oasis.uniandes).
 - 🧠 I was a member of the research group [IMAGINE](https://imagine.uniandes.edu.co) which focuses on image processing, computer visualization and mixed reality technologies.
 - 🤖 I was part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/SinfonIA-web/home) focused on artificial intelligence and social robotics.
 - :mailbox: Reach me: (abel@arismendy.co).
