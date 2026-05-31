@@ -3,12 +3,12 @@
 ![](https://komarev.com/ghpvc/?username=abelarismendy&color=1D1C3B&style=for-the-badge)
 ![](https://hit.yhype.me/github/profile?user_id=39172024)
 
-- 💻 I am a software developer with a focus on Frontend Web Development.
-- :mortar_board: I am a Computer and Systems Engineering graduate from Universidad de los Andes.
-- 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
-- 🥽 I am a cofounder and former leader of the student initiative focused on mixed reality learning: [Oasis](https://instagram.com/oasis.uniandes).
-- 🧠 I was a member of the research group [IMAGINE](https://imagine.uniandes.edu.co) which focuses on image processing, computer visualization and mixed reality technologies.
-- 🤖 I was part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/SinfonIA-web/home) focused on artificial intelligence and social robotics.
+- 💻 I am a fullstack developer & product engineer — I build from the database to the pixels, and treat design as part of engineering.
+- 🏗️ Currently building at Creditop, across frontend, backend, mobile, and XR.
+- :mortar_board: Computer & Systems Engineering graduate from Universidad de los Andes.
+- 🥽 Cofounder and former leader of [Oasis](https://instagram.com/oasis.uniandes), a student initiative focused on mixed reality learning.
+- 🧠 Member of the research group [IMAGINE](https://imagine.uniandes.edu.co), focused on image processing, computer visualization, and mixed reality.
+- 🤖 Led the perception area for a Pepper-type social robot at [SinfonIA](https://sinfoniauniandes.github.io/SinfonIA-web/home), and competed at RoboCup 2023 in Bordeaux — 2nd place in our category.
 - :mailbox: Reach me: (abel@arismendy.co).
 
 ## Connect With Me 🤝
@@ -16,12 +16,16 @@
 [![Linkedin profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abelarismendy/)
 [![Github profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abelarismendy/)
 [![Vimeo profile](https://img.shields.io/badge/vimeo-1DA1F2?style=for-the-badge&logo=vimeo&logoColor=white)](https://vimeo.com/abelarismendy)
+[![Behance profile](https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/abelarismendy)
 [![X profile](https://img.shields.io/badge//X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/abelarismendy/)
 
 
 ## Skills 💪 and Technologies 🛠
 
 [![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](#skills-💪-and-technologies-🛠)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#skills-💪-and-technologies-🛠)
+[![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=%2361DAFB)](#skills-💪-and-technologies-🛠)
+[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](#skills-💪-and-technologies-🛠)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#skills-💪-and-technologies-🛠)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#skills-💪-and-technologies-🛠)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
