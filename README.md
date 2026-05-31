@@ -4,14 +4,14 @@
 ![](https://hit.yhype.me/github/profile?user_id=39172024)
 
 - 💻 I am a software developer with a focus on Frontend Web Development.
-- :mortar_board: I am  a student of Computer and Systems Engineering at Universidad de los Andes.
+- :mortar_board: I am a Computer and Systems Engineering graduate from Universidad de los Andes.
 - 💪 I love solving problems and learning new things 🤔, and I am always looking for new projects and challenges.
-- 🥽 I am a cofounder an was a leader of the student iniciative focused in mixed reaity learning: [Oasis](https://instagram.com/oasis.uniandes).
+- 🥽 I am a cofounder and former leader of the student initiative focused on mixed reality learning: [Oasis](https://instagram.com/oasis.uniandes).
 - 🧠 I was a member of the research group [IMAGINE](https://imagine.uniandes.edu.co) which focuses on image processing, computer visualization and mixed reality technologies.
 - 🤖 I was part of a research group called [SinfonIA](https://sinfoniauniandes.github.io/SinfonIA-web/home) focused on artificial intelligence and social robotics.
 - :mailbox: Reach me: (abel@arismendy.co).
 
-## Connect whit me 🤝
+## Connect With Me 🤝
 
 [![Linkedin profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abelarismendy/)
 [![Github profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abelarismendy/)
@@ -58,4 +58,3 @@
 
 
 Thanks for visiting my GitHub profile! If you have any questions or want to know more about my projects, feel free to [contact me](mailto:abel@arismendy.co?cc=a.arismendy@uniandes.edu.co&subject=Contact%20me%20-%20Github) 💬.
-
