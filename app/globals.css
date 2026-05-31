@@ -976,7 +976,15 @@ section[id] {
 }
 
 .site-footer__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   transition: color 160ms ease;
+}
+
+.site-footer__links svg {
+  width: 1em;
+  height: 1em;
 }
 
 .site-footer__links a:hover {

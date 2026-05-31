@@ -487,7 +487,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       label: "Abierto a Nuevos Proyectos",
       title: "¿Tienes Algo en Mente?",
       titleAction: "Construyámoslo.",
-      copy: "Trabajo fullstack de producto, sistemas frontend, herramientas internas o prototipos XR. Si estás creando algo con intención, cuéntame."
+      copy: "Sitios web, apps, herramientas internas o prototipos XR. Cuéntame qué estás construyendo."
     }
   }
 };

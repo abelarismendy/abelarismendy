@@ -10,10 +10,18 @@ import {
   CardHeader,
   CardTitle
 } from "@/components/ui/card";
+import type { ComponentType, SVGProps } from "react";
 import { ButtonLink } from "@/components/ui/button-link";
 import { siteConfig } from "@/lib/profile";
 import { SectionHeading } from "@/components/site/section-heading";
+import { BehanceIcon, GitHubIcon, VimeoIcon } from "@/components/site/brand-icons";
 import { useDict } from "@/components/i18n/language-provider";
+
+const brandIcons: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
+  GitHub: GitHubIcon,
+  Vimeo: VimeoIcon,
+  Behance: BehanceIcon
+};
 
 export function AboutSection() {
   const dict = useDict();
@@ -249,11 +257,11 @@ export function ContactSection() {
           {siteConfig.social
             .filter((item) => item.label !== "LinkedIn" && item.label !== "Email")
             .map((item) => {
-              const Icon = item.icon;
+              const Icon = brandIcons[item.label];
 
               return (
                 <a key={item.href} href={item.href} target="_blank" rel="noreferrer">
-                  <Icon aria-hidden="true" />
+                  {Icon ? <Icon aria-hidden="true" /> : null}
                   {item.label}
                 </a>
               );
