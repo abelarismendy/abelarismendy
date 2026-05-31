@@ -2,10 +2,14 @@ import { Hero } from "@/components/site/hero";
 import {
   AboutSection,
   ContactSection,
+  EducationSection,
+  ExperienceSection,
+  ProjectsSection,
   ResearchSection,
-  SkillsSection,
-  WorkSection
+  SkillsSection
 } from "@/components/site/profile-sections";
+import { ScrollReveal } from "@/components/site/scroll-reveal";
+import { SkipLink } from "@/components/site/skip-link";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
 import { siteConfig } from "@/lib/profile";
@@ -36,21 +40,22 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
-      <a className="skip-link" href="#main">
-        Skip To Main Content
-      </a>
+      <SkipLink />
       <div className="site-canvas" id="top">
         <SiteHeader />
         <main id="main">
           <Hero />
           <AboutSection />
-          <WorkSection />
+          <ExperienceSection />
+          <EducationSection />
+          <ProjectsSection />
           <ResearchSection />
           <SkillsSection />
           <ContactSection />
         </main>
         <SiteFooter />
       </div>
+      <ScrollReveal />
     </>
   );
 }

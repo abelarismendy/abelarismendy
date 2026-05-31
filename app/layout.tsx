@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import type { ReactNode } from "react";
 import { siteConfig } from "@/lib/profile";
+import { LanguageProvider } from "@/components/i18n/language-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -47,17 +48,13 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | ${siteConfig.role}`,
     description: siteConfig.description,
     images: ["/img/header.png"]
-  },
-  icons: {
-    icon: "/img/pp.ico",
-    shortcut: "/img/pp.ico"
   }
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#1c1d3b",
+  themeColor: "#08090f",
   colorScheme: "dark"
 };
 
@@ -69,7 +66,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analyticsId}`}
           strategy="afterInteractive"

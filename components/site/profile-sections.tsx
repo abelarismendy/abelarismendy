@@ -1,3 +1,5 @@
+"use client";
+
 import { ExternalLink, Mail } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -9,50 +11,27 @@ import {
   CardTitle
 } from "@/components/ui/card";
 import { ButtonLink } from "@/components/ui/button-link";
-import {
-  education,
-  experience,
-  featuredProjects,
-  researchGroups,
-  siteConfig,
-  skills
-} from "@/lib/profile";
+import { siteConfig } from "@/lib/profile";
 import { SectionHeading } from "@/components/site/section-heading";
+import { useDict } from "@/components/i18n/language-provider";
 
 export function AboutSection() {
+  const dict = useDict();
+
   return (
     <section className="section-shell section-block" id="about" aria-labelledby="about-title">
-      <SectionHeading id="about-title" title="About Abel">
-        Fullstack developer and product engineer from Bogota, Colombia. I graduated in Computer &
-        Systems Engineering from Universidad de los Andes and work across React, Next.js,
-        TypeScript, NestJS, React Native, XR, and design-forward product systems.
-      </SectionHeading>
+      <SectionHeading id="about-title" eyebrow={dict.about.eyebrow} title={dict.about.title} />
 
       <div className="about-grid">
-        <div className="about-copy">
-          <p>
-            My work sits between engineering, product, and visual craft: I care about clean
-            interfaces, readable systems, strong interaction details, and the small design
-            decisions that make technical products feel clear.
-          </p>
-          <p>
-            Before focusing deeply on software, I worked in graphic and motion design. That mix
-            still shapes how I approach startup products, internal tools, research demos, and
-            communication.
-          </p>
+        <div className="about-photo" role="img" aria-label={dict.about.photoAlt} data-reveal>
+          <span className="about-photo__fallback" aria-hidden="true">
+            AA
+          </span>
         </div>
 
-        <div className="education-list" aria-label="Education">
-          {education.map((item) => (
-            <Card key={item.title} as="article">
-              <CardHeader>
-                <CardTitle>{item.title}</CardTitle>
-                <CardDescription>{item.place}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>{item.detail}</p>
-              </CardContent>
-            </Card>
+        <div className="about-copy" data-reveal>
+          {dict.about.paragraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
           ))}
         </div>
       </div>
@@ -60,78 +39,135 @@ export function AboutSection() {
   );
 }
 
-export function WorkSection() {
+export function EducationSection() {
+  const dict = useDict();
+
   return (
-    <section className="section-shell section-block" id="work" aria-labelledby="work-title">
-      <SectionHeading id="work-title" title="Work & Projects">
-        Recent experience from Creditop, Samsam, Oasis, and Universidad de los Andes, plus selected
-        products and research projects pulled from the updated CV and public project pages.
+    <section
+      className="section-shell section-block split-grid"
+      id="education"
+      aria-labelledby="education-title"
+    >
+      <SectionHeading
+        id="education-title"
+        eyebrow={dict.education.eyebrow}
+        title={dict.education.title}
+      >
+        {dict.education.intro}
       </SectionHeading>
 
-      <div className="work-grid">
-        <div className="timeline" aria-label="Experience Timeline">
-          {experience.map((item) => (
-            <article key={`${item.title}-${item.company}`} className="timeline__item">
-              <div className="timeline__marker" aria-hidden="true" />
-              <div>
-                <p className="timeline__period">{item.period}</p>
-                <h3>{item.title}</h3>
-                <p className="timeline__company">{item.company}</p>
-                <p>{item.summary}</p>
-              </div>
-            </article>
-          ))}
-        </div>
+      <ol className="timeline" aria-label={dict.education.title}>
+        {dict.education.items.map((item, index) => (
+          <li key={index} className="timeline__item" data-reveal>
+            <span className="timeline__node" aria-hidden="true" />
+            {item.period ? <p className="timeline__period">{item.period}</p> : null}
+            <h3 className="timeline__title">{item.title}</h3>
+            <p className="timeline__company">{item.place}</p>
+            <p className="timeline__summary">{item.detail}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
 
-        <div className="project-list">
-          {featuredProjects.map((project) => (
-            <Card key={project.name} as="article" className="project-card">
-              <CardHeader>
-                <CardTitle>{project.name}</CardTitle>
-                <CardDescription>{project.description}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="badge-row">
-                  {project.tags.map((tag) => (
-                    <Badge key={tag}>{tag}</Badge>
-                  ))}
-                </div>
-                <p className="project-card__source">{project.source}</p>
-              </CardContent>
-              <CardFooter>
-                <ButtonLink
-                  href={project.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  variant="quiet"
-                  icon={<ExternalLink aria-hidden="true" />}
-                  iconPosition="end"
-                >
-                  Open Project
-                </ButtonLink>
-              </CardFooter>
-            </Card>
-          ))}
-        </div>
+export function ExperienceSection() {
+  const dict = useDict();
+
+  return (
+    <section
+      className="section-shell section-block split-grid"
+      id="experience"
+      aria-labelledby="experience-title"
+    >
+      <SectionHeading
+        id="experience-title"
+        eyebrow={dict.experience.eyebrow}
+        title={dict.experience.title}
+      >
+        {dict.experience.intro}
+      </SectionHeading>
+
+      <ol className="timeline" aria-label={dict.experience.title}>
+        {dict.experience.items.map((item, index) => (
+          <li key={index} className="timeline__item" data-reveal>
+            <span className="timeline__node" aria-hidden="true" />
+            <p className="timeline__period">{item.period}</p>
+            <h3 className="timeline__title">{item.title}</h3>
+            <p className="timeline__company">{item.company}</p>
+            <p className="timeline__summary">{item.summary}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
+
+export function ProjectsSection() {
+  const dict = useDict();
+
+  return (
+    <section className="section-shell section-block" id="projects" aria-labelledby="projects-title">
+      <SectionHeading
+        id="projects-title"
+        eyebrow={dict.projects.eyebrow}
+        title={dict.projects.title}
+      >
+        {dict.projects.intro}
+      </SectionHeading>
+
+      <div className="projects-grid">
+        {dict.projects.items.map((project) => (
+          <Card key={project.name} as="article" className="project-card" data-reveal>
+            <CardHeader>
+              <CardTitle>{project.name}</CardTitle>
+              <CardDescription>{project.description}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="badge-row">
+                {project.tags.map((tag) => (
+                  <Badge key={tag}>{tag}</Badge>
+                ))}
+              </div>
+            </CardContent>
+            <CardFooter>
+              <ButtonLink
+                href={project.href}
+                target="_blank"
+                rel="noreferrer"
+                variant="quiet"
+                icon={<ExternalLink aria-hidden="true" />}
+                iconPosition="end"
+              >
+                {dict.actions.openProject}
+              </ButtonLink>
+            </CardFooter>
+          </Card>
+        ))}
       </div>
     </section>
   );
 }
 
 export function ResearchSection() {
+  const dict = useDict();
+
   return (
     <section className="section-shell section-block" id="research" aria-labelledby="research-title">
-      <SectionHeading id="research-title" title="Research Groups">
-        Research communities that shaped my work in mixed reality, computer visualization, AI, and
-        social robotics.
+      <SectionHeading
+        id="research-title"
+        eyebrow={dict.research.eyebrow}
+        title={dict.research.title}
+      >
+        {dict.research.intro}
       </SectionHeading>
 
       <div className="research-grid">
-        {researchGroups.map((group) => {
+        {dict.research.items.map((group) => {
           const Icon = group.icon;
 
           return (
-            <Card key={group.name} as="article" className="research-card">
+            <Card key={group.name} as="article" className="research-card" data-reveal>
               <CardHeader>
                 <div className="card-icon">
                   <Icon aria-hidden="true" />
@@ -144,7 +180,7 @@ export function ResearchSection() {
               </CardContent>
               <CardFooter>
                 <a href={group.href} target="_blank" rel="noreferrer">
-                  Visit {group.name}
+                  {dict.actions.visit} {group.name}
                   <ExternalLink aria-hidden="true" />
                 </a>
               </CardFooter>
@@ -157,19 +193,20 @@ export function ResearchSection() {
 }
 
 export function SkillsSection() {
+  const dict = useDict();
+
   return (
     <section className="section-shell section-block" id="skills" aria-labelledby="skills-title">
-      <SectionHeading id="skills-title" title="Skills & Tools">
-        A practical stack for shipping web products, data-backed tools, visual systems, and
-        immersive prototypes.
+      <SectionHeading id="skills-title" eyebrow={dict.skills.eyebrow} title={dict.skills.title}>
+        {dict.skills.intro}
       </SectionHeading>
 
       <div className="skills-grid">
-        {skills.map((group) => {
+        {dict.skills.groups.map((group, index) => {
           const Icon = group.icon;
 
           return (
-            <Card key={group.title} as="article" className="skill-card">
+            <Card key={index} as="article" className="skill-card" data-reveal>
               <CardHeader>
                 <div className="card-icon">
                   <Icon aria-hidden="true" />
@@ -192,29 +229,50 @@ export function SkillsSection() {
 }
 
 export function ContactSection() {
+  const dict = useDict();
+
   return (
-    <section className="contact-band section-shell" id="contact" aria-labelledby="contact-title">
+    <section
+      className="contact-band section-shell"
+      id="contact"
+      aria-labelledby="contact-title"
+      data-reveal
+    >
       <div>
-        <p className="contact-band__label">Available For Focused Collaborations</p>
-        <h2 id="contact-title">Let's Build Something Clear, Useful, and Well Crafted.</h2>
-        <p>
-          Reach out for fullstack product work, frontend systems, internal tools, XR prototypes, or
-          design-forward technical projects.
-        </p>
+        <p className="contact-band__label">{dict.contact.label}</p>
+        <h2 id="contact-title">
+          {dict.contact.title}
+          <span className="contact-band__title-action">{dict.contact.titleAction}</span>
+        </h2>
+        <p>{dict.contact.copy}</p>
+        <div className="contact-band__social">
+          {siteConfig.social
+            .filter((item) => item.label !== "LinkedIn" && item.label !== "Email")
+            .map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <a key={item.href} href={item.href} target="_blank" rel="noreferrer">
+                  <Icon aria-hidden="true" />
+                  {item.label}
+                </a>
+              );
+            })}
+        </div>
       </div>
       <div className="contact-band__actions">
         <ButtonLink href={`mailto:${siteConfig.email}`} icon={<Mail aria-hidden="true" />}>
-          Email Abel
+          {dict.actions.emailAbel}
         </ButtonLink>
         <ButtonLink
-          href="https://www.linkedin.com/in/abelarismendy/"
+          href={siteConfig.linkedin}
           target="_blank"
           rel="noreferrer"
           variant="secondary"
           icon={<ExternalLink aria-hidden="true" />}
           iconPosition="end"
         >
-          Open LinkedIn
+          {dict.actions.openLinkedin}
         </ButtonLink>
       </div>
     </section>

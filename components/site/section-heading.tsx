@@ -9,7 +9,7 @@ type SectionHeadingProps = {
 
 export function SectionHeading({ eyebrow, id, title, children }: SectionHeadingProps) {
   return (
-    <div className="section-heading">
+    <div className="section-heading" data-reveal>
       {eyebrow ? <p className="section-heading__eyebrow">{eyebrow}</p> : null}
       <h2 id={id}>{title}</h2>
       {children ? <p>{children}</p> : null}
