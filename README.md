@@ -4,7 +4,7 @@
 ![](https://hit.yhype.me/github/profile?user_id=39172024)
 
 - 💻 I am a fullstack developer & product engineer — I build from the database to the pixels, and treat design as part of engineering.
-- 🏗️ Currently building at Creditop, across frontend, backend, mobile, and XR.
+- 🏗️ Currently building at Creditop, across frontend and backend.
 - :mortar_board: Computer & Systems Engineering graduate from Universidad de los Andes.
 - 🥽 Cofounder and former leader of [Oasis](https://instagram.com/oasis.uniandes), a student initiative focused on mixed reality learning.
 - 🧠 Member of the research group [IMAGINE](https://imagine.uniandes.edu.co), focused on image processing, computer visualization, and mixed reality.
